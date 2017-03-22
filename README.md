@@ -16,9 +16,11 @@ const canvasMeter = require ("canvas-meter");
 ## Examples
 
 A speedometer
+
 ![speedo](https://github.com/brucemcpherson/canvas-meter/blob/master/speedo.png "A speedometer")
 
 A guitar tuner
+
 ![tuner](https://github.com/brucemcpherson/canvas-meter/blob/master/tuner.png "A guitar tuner")
 
 ## API
