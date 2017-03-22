@@ -1,0 +1,1 @@
+var canvasMeter = require ("lib/meter");

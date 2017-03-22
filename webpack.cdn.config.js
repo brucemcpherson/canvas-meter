@@ -5,16 +5,15 @@ console.log(debug? "development":"production");
 
 
 module.exports = {
-  context: path.join(__dirname, ""),
-  devtool: "source-map",
-  entry: "./test/test.js",
+  context: path.join(__dirname, "src"),
+  devtool:  "source-map",
+  entry: "./index.js",
 
   module: {
     loaders: [
       {
         test: /\.jsx?$/,
         exclude: "/node_modules/",
-        include:"/test/",
         loader: 'babel-loader',
         query: {
           presets: ["babel-preset-es2015", "babel-preset-stage-0","babel-preset-stage-2"],
@@ -25,8 +24,8 @@ module.exports = {
   },
 
   output: {
-    path: __dirname + "/test",
-    filename: "testweb.min.js"
+    path: __dirname + "/cdn",
+    filename: "canvas-meter.v1.0.2.min.js"
   },
   
   plugins: debug ? [] : [
