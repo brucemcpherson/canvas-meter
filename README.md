@@ -10,7 +10,7 @@ npm install canvas-meter --save
 
 require it
 ```
-const canvasMeter = require ("../dist/lib/meter");
+const canvasMeter = require ("canvas-meter");
 ```
 
 ## Examples
