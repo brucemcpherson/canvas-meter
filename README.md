@@ -156,7 +156,11 @@ const getSpeedoSkin = () => {
   };
 };
 ```
+Use it like this
 
-
+```
+  const meter = new canvasMeter(document.getElementById("speedo"));
+  meter.setOptions (getSpeedoSkin());
+```
 
 
