@@ -8,5 +8,10 @@ A configurable Vanilla JavaScript meter
 npm install canvas-meter --save
 ```
 
-See the tests folder for an example
+## examples
+
+![speedo](https://github.com/brucemcpherson/canvas-meter/blob/master/speedo.png "A speedometer")
+
+![tuner](https://github.com/brucemcpherson/canvas-meter/blob/master/tuner.png "A guitar tuner")
+
 
