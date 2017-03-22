@@ -1,6 +1,6 @@
 {
   "name": "canvas-meter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Canvas meter",
   "main": "./dist/index.js",
   "scripts": {
@@ -17,8 +17,7 @@
     "gauge"
   ],
   "dependencies": {
-    "chroma-js": "^1.2.2",
-    "node-libs-browser": "^2.0.0"
+    "chroma-js": "^1.2.2"
   },
   "repository": {
     "type": "git",
@@ -28,7 +27,8 @@
     "babel-cli": "^6.24.0",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-preset-es2015": "^6.24.0",
-    "webpack": "^2.3.1"
+    "webpack": "^2.3.1",
+    "node-libs-browser": "^2.0.0"
   },
   "babel": {
     "plugins": [
