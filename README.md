@@ -1,5 +1,5 @@
 # canvas-meter
-A configurable Vanilla JavaScript meter
+A configurable JavaScript meter
 
 
 ## Getting started
