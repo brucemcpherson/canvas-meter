@@ -171,4 +171,9 @@ Use it like this
   meter.setOptions (getSpeedoSkin());
 ```
 
+## Design your own
+
+Use codepen to customize your own interactively. 
+
+http://codepen.io/brucemcpherson/pen/Ppezxw
 
