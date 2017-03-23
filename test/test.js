@@ -1,4 +1,4 @@
-var canvasMeter = require ("../dist/lib/meter");
+var CanvasMeter = require ("../dist/lib/meter");
 window.onload = function () {
 // skins
 const getSpeedoSkin = () => {
@@ -43,7 +43,7 @@ const getSpeedoSkin = () => {
 
 
 function testSpeedo () {
-  const meter = new canvasMeter(document.getElementById("speedo"));
+  const meter = new CanvasMeter(document.getElementById("speedo"));
   meter.setOptions (getSpeedoSkin());
   sim();
 
@@ -59,7 +59,7 @@ function testSpeedo () {
 }
 
 function testTuner () {
-  const meter = new canvasMeter(document.getElementById("meter"));
+  const meter = new CanvasMeter(document.getElementById("meter"));
 
   sim();
 

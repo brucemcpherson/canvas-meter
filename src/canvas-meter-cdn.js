@@ -1,1 +1,1 @@
-const canvasMeter = require ("./index");
+global.CanvasMeter = require ("./index");
