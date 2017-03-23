@@ -12,7 +12,7 @@ npm install canvas-meter --save
 
 require it
 ```
-const canvasMeter = require ("canvas-meter");
+const CanvasMeter = require ("canvas-meter");
 ```
 
 ### with a script tag
@@ -176,4 +176,9 @@ Use it like this
 Use codepen to customize your own interactively. 
 
 http://codepen.io/brucemcpherson/pen/Ppezxw
+
+## More
+
+A google apps script implementation.
+http://ramblings.mcpher.com/Home/excelquirks/addons/gasperviz
 
