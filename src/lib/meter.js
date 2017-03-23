@@ -272,5 +272,3 @@ function canvasMeter (canvasElem) {
 
 module.exports = canvasMeter;
 
-// Allow use of default import syntax in TypeScript
-module.exports.default = canvasMeter;

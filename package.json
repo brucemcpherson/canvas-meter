@@ -4,7 +4,7 @@
   "description": "Canvas meter",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "babel src --out-dir dist && browserify ./dist/lib/meter.js | uglifyjs > ./cdn/canvas-meter-v1.0.min.js",
+    "build": "babel src --out-dir dist && browserify ./dist/canvas-meter-cdn.js | uglifyjs > ./cdn/canvas-meter-v1.0.min.js",
     "prepublish": "npm run build"
   },
   "author": "Bruce Mcpherson <bruce@mcpher.com> (http://ramblings.mcpher.com)",

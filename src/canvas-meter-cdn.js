@@ -1,0 +1,1 @@
+const canvasMeter = require ("./index");
