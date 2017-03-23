@@ -4,6 +4,8 @@ A configurable JavaScript meter
 
 ## Getting started
 
+### with npm
+
 ```
 npm install canvas-meter --save
 ```
@@ -11,6 +13,12 @@ npm install canvas-meter --save
 require it
 ```
 const canvasMeter = require ("canvas-meter");
+```
+
+### with a script tag
+
+```
+<script src="https://storage.googleapis.com/xliberation.com/canvas-meter/canvas-meter.v1.0.min.js"></script>
 ```
 
 ## Examples
