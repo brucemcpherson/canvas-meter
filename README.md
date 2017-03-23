@@ -41,7 +41,7 @@ Create a canvas element
 pass it to an instance of the meter
 
 ```
-const meter = new canvasMeter(document.getElementById("meter"));
+const meter = new CanvasMeter(document.getElementById("meter"));
 ```
 
 Update it when you want. 
@@ -167,7 +167,7 @@ const getSpeedoSkin = () => {
 Use it like this
 
 ```
-  const meter = new canvasMeter(document.getElementById("speedo"));
+  const meter = new CanvasMeter(document.getElementById("speedo"));
   meter.setOptions (getSpeedoSkin());
 ```
 
